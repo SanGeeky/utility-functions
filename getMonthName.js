@@ -13,7 +13,7 @@ const months = [
   'december'
 ];
 
-const monthName = (place) => (
+export default const monthName = (place) => (
   months[place]
     ? months[place]
     : 'There are only 12 months!'
