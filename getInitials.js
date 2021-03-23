@@ -1,9 +1,9 @@
 // "For your information" -> "FYI"
 const initials = (name = '') => (
-  name
+  return name
     .split(' ')
     .map(word => `${word.charAt(0).toUpperCase()}.`)
     .join('')
 );
 
-export default initials;
+
