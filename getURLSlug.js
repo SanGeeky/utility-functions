@@ -1,7 +1,7 @@
 const URLSlug = (words) => (
-  words
+  export words
     .replace(/\s+/g, '-')
     .toLowerCase()
 );
 
-export default URLSlug;
+
